@@ -1,4 +1,7 @@
-// https://leetcode.com/problems/remove-outermost-parentheses/
+/*
+2023 Dec 1
+https://leetcode.com/problems/remove-outermost-parentheses/
+*/
 
 var removeOuterParentheses = function(s) {
   const decomposedArray = [];
