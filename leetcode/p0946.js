@@ -27,7 +27,8 @@ var validateStackSequences = function (pushed, popped) {
 };
 
 /*
-Better summed up by
+Faster run time on leetcode with:
+
 var validateStackSequences = function(pushed, popped) {
     const stack = []
 
@@ -41,5 +42,7 @@ var validateStackSequences = function(pushed, popped) {
     }
 
     return stack.length ==0 
-};
+}; 
+
+However, I think shift would be O(m) operation.  So their faster run time may be result of better hardware instead of better code, *or* could be sample set works with the other's submission better, *or* could be I'm missing something.
 */
