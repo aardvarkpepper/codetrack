@@ -32,7 +32,7 @@ var maxDepth = function(s) {
 /*
 "Faster" solution used Array.from and .forEach but essentially the same logic.  Also used Math.max for comparison.
 
-It seems Math.max may be more efficient for comparisons; it's used in multiple solutions.
+It seems Math.max may be more efficient for comparisons; it's used in multiple solutions.  Testing did not confirm this; perhaps try repeated tests over 100,000 operations.
 
 var maxDepth = function(s) {
   maxC = 0
