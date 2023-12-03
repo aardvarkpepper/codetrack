@@ -47,4 +47,7 @@ var removeOuterParentheses = function(s) {
   return str
     
 };
+
+Note:  Solution uses pattern of running "if" first then increment/decrement variable "if" checks.  My code runs unnecessary "if"s.
+Similar reasoning to solution for Two Sum.
 */
