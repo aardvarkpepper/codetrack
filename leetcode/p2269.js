@@ -1,6 +1,8 @@
 /**
  * 2024 Dec 4
+ * https://leetcode.com/problems/find-the-k-beauty-of-a-number/description/
  * First solution consistently performed poorly on speed and memory.
+ * (added note re: late git push)
  */
 
 var divisorSubstrings = function(num, k) {
