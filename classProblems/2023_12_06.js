@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 6
  * https://replit.com/@JamesLee115/flattenMatrix#index.js
+ * https://replit.com/@JamesLee115/matrixMax#index.js
  */
 
 /*
@@ -57,3 +58,55 @@ const matrix2 = [
 ];
 
 console.log(flatten(matrix2));
+
+/*
+ Given a m x n matrix (a 2D array), find the largest value in the matrix.
+ 
+ DO NOT use Array.prototype.flat(), Math.max() or any similar built-in method.
+
+ Ex. 1:
+ input: [
+  [5, 6, 7, 8],
+  [9, 10, 11, 12]
+  [1, 2, 3, 4],
+ ]
+ output: 12
+
+ Ex. 2:
+ input: [
+  ["a", "z"],
+  ["b", "y"],
+  ["c", "x"],
+  ["d", "w"],
+ ]
+ output: "z"
+*/
+
+const matrixMax = (matrix) => {
+  let max = matrix[0][0];
+  for (const array of matrix) {
+    for (const element of array) {
+      if (element > max) {
+        max = element;
+      }
+    }
+  }
+  return max;
+  // your code here
+};
+
+const matrix1z = [
+  [5, 6, 7, 8],
+  [9, 10, 11, 12],
+  [1, 2, 3, 4],
+];
+console.log(matrixMax(matrix1));
+
+const matrix2z = [
+  ["a", "z"],
+  ["b", "y"],
+  ["c", "x"],
+  ["d", "w"],
+];
+
+console.log(matrixMax(matrix2));
