@@ -1,5 +1,5 @@
 /**
- * 2024 Dec 6
+ * 2023 Dec 6
  * https://www.codewars.com/kata/581e014b55f2c52bb00000f8/train/javascript
  */
 
