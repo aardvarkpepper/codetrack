@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 5
  * https://www.codewars.com/kata/57e80163f11c64130c000076/train/javascript
+ * Arrays in Arrays to Objects within Objects
  */
 
 function arrayToObject(array, iterator = 0){

@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 5
  * https://www.codewars.com/kata/53072ed3f36d6211250002ad/train/javascript
+ * Recursive countdown
  */
 
 /*

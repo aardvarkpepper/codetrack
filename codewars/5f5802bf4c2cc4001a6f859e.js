@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 7
  * https://www.codewars.com/kata/5f5802bf4c2cc4001a6f859e/train/rust
+ * Grid index
  */
 
 function gridIndex(grid, indices) {

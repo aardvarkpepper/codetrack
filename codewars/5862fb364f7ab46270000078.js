@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 6
  * https://www.codewars.com/kata/5862fb364f7ab46270000078/train/javascript
+ * Basic Encryption
  */
 
 function encrypt(text, rule) {

@@ -1,5 +1,6 @@
 /**2023 Dec 6
  * https://www.codewars.com/kata/5848565e273af816fb000449/train/javascript
+ * Encrypt this!
  */
 
 function encryptThis(str) {

@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 5
  * https://www.codewars.com/kata/5c563cb78dac1951c2d60f01/train/javascript
+ * Club Doorman
  */
 
 function passTheDoorMan (word){

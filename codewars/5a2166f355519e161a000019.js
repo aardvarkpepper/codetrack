@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 6 
  * https://www.codewars.com/kata/5a2166f355519e161a000019/train/javascript
+ * Ragbaby cipher
  * Ran into some issues with testing for nonalpha (solved with regexp)
  * Then ran into modulo issue in decrypt; solved.
  */

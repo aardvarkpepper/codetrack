@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 5
  * https://www.codewars.com/kata/565b9d6f8139573819000056/train/javascript
+ * Decoding a message
  */
 
 function decode(message){

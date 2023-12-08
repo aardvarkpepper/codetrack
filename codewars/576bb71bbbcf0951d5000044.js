@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 7
  * https://www.codewars.com/kata/576bb71bbbcf0951d5000044/train/rust
+ * Count of positives / sum of negatives
  */
 
 function countPositivesSumNegatives(input) {

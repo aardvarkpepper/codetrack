@@ -1,5 +1,6 @@
 /**2023 Dec 6
  * https://www.codewars.com/kata/55beec7dd347078289000021/train/javascript
+ * Linked Lists - Length & Count
  */
 
 function Node(data) {

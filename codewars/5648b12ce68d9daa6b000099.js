@@ -1,6 +1,7 @@
 /**
  * 2023 Dec 8
  * https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/javascript
+ * Number of People in the Bus
  */
 
 var number = function(busStops){
