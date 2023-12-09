@@ -5,5 +5,6 @@
  */
 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-  return distanceToPump < mpg * fuelLeft;
+  //console.log(distanceToPump, mpg, fuelLeft)
+  return distanceToPump <= (mpg * fuelLeft);
 };
