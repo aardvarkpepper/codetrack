@@ -5,6 +5,5 @@
  */
 
 var argumentsLength = function(...args) {
-  const lengthMe = [...args];
-  return lengthMe.length;
+  return args.length;
 };
